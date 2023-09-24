@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #1e293b;
+}
+
+@layer {
+    .icons-center{
+        @apply w-10 bg-gray-600 text-gray-300 rounded-lg p-2 mb-4
+    }
+
+    .icons-bottom {
+        @apply bg-gray-600 p-2 rounded-lg mb-4 text-gray-300 w-10
+    }
+}
